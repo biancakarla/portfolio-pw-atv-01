@@ -1,15 +1,16 @@
 body {
     background-color: #e9f0c9;
-    margin: 0 auto;
-    padding: 0px 20px 20px 20px; 
+    margin: 0;
+    padding: 0px 0px; 
 }
 
 header {
     text-align: center;
     background-color: #123142;
-    width: 600px;
-    margin: 0 auto;
-    padding: 10px 20px 20px 20px;   
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px 10px 20px; 
+ 
 }
 
 h1 {
@@ -43,6 +44,8 @@ h3 {
     font-style: normal;
     font-size: 20px;
     color: #3e1c33;
+    padding: 0px 0px 0px 25px;
+    
 }
 
 p {
@@ -50,5 +53,58 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color:black
+    color:black;
+    padding: 0px 0px 0px 25px;
+}
+
+.tema{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 4;
+    color: #b14623;
+}
+
+.tema a:link {
+    text-decoration: none;
+    color: #b14623;
+}
+.tema a:hover {
+    color: #f6921d;
+}
+
+.footer {
+    background-color: #3b657a;
+    width: 100%;
+    margin: 0 0;
+    padding: 10px 20px 10px 20px;
+    color:#b9f1d6;
+}
+
+.footer p {
+    font-weight: 500;
+    color:#69d2cd;
+}
+
+.footer a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover {
+    color: #b9f1d6;
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 2%;
 }
