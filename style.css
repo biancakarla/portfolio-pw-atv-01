@@ -1,41 +1,69 @@
-body {
-    background-color: #e9f0c9;
-    margin: 0;
-    padding: 0px 0px; 
+#site{
+    width: 1500px;
+    height: auto;
+    margin: 0%;
+    background-color:#EAEAEA;
 }
 
-header {
-    text-align: center;
+.capa {
     background-color: #123142;
-    width: 100%;
+    align-items: center;
+    width: 1500px;
+    height: 400px;
     margin: 0;
-    padding: 10px 20px 10px 20px; 
- 
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: #b9f1d6;
-    font-family: "Quicksand", sans-serif;
+.capa1 {
+    background-color: #123142;
+    text-align: center;
+    width: 1500px;
+    height: 300px;
+    padding: 50px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.capa2 {
+    background-color: white;
+    color: #1AAEFF;
+    text-align: left;
+    float: left;
+    width: 500px;
+    height: 60px;
+    margin: 0;
+    padding: 15px 55px 15px 55px;
+    box-sizing: border-box;
+}
+
+.capa3 {
+    background-color: #19658F;
+    color: white;
+    text-align: right;
+    float: left;
+    width: 1000px;
+    height: 60px;
+    margin: 0;
+    padding: 15px 55px 15px 55px;
+    box-sizing: border-box;
+}
+
+.capa h1{
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 32px;
+    font-size: 120px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.capa h2  {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
     line-height: 1;
-}
-
-h2 {
-    color: #69d2cd;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-}
-
-h2 {
-    color: #69d2cd;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
 }
 
 h3 {
@@ -74,10 +102,24 @@ p {
     color: #f6921d;
 }
 
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 2%;
+}
+
 .footer {
     background-color: #3b657a;
-    width: 100%;
-    margin: 0 0;
+    width: 1500px;
+    margin: 0;
+    box-sizing: border-box;
     padding: 10px 20px 10px 20px;
     color:#b9f1d6;
 }
@@ -94,17 +136,4 @@ p {
 }
 .footer a:hover {
     color: #b9f1d6;
-}
-
-img {
-    display: block;
-    width: 400px;
-    height: 400px;
-    max-width: 100%;
-    object-fit: contain;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 2%;
 }
