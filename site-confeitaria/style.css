@@ -1,48 +1,15 @@
-
-/*Mobile Devices: 319px — 480px*/
-@media (min-width: 319px) and (max-width: 480px) {
-    body {
-      background-color:white;
-    }
-}
-
-/*
-/*iPads and Tablets: 481px — 1200px
-@media (min-width: 481px) and (max-width: 1200px) {
-    body {
-      background-color: powderblue;
-    }
-}
-
-/*Laptops: 1201px — 1600px
-@media (min-width: 1201px) and (max-width: 1600px) {
-    body {
-      background-color: limegreen;
-    }
-}
-
-/*Desktops: 1601px and more
-@media (min-width: 1601px) {
-    body {
-      background-color: seagreen;
-    }
-}
-*/
-
-
 body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    background-color:white;
 }
-
 
 .menu {
     width: 100%;
     height: auto;
     margin: 0px;
-    padding: 10px;
     box-sizing: border-box;
     background-color: #5f0609;
 }
@@ -52,14 +19,11 @@ body {
     margin: 0px;
     text-align: center;
     font-family: "Nanum Gothic", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-}
+} 
+
 
 .menu li{
     display: inline-block;
-    padding: 5px 10px 5px 10px;
-    
 }
 
 .menu a:link{
@@ -83,84 +47,56 @@ body {
 .banner-text {
     position: absolute;
     font-family: "Playfair Display", serif;
-    padding: 20px 10%;
-    line-height: 80%;
-    transform: translate(0%, -100%);
 }
 
 .banner-text h1{
-    top: 0%;
-    left: 50%;
-    z-index:1 ;
-    font-weight: 800;
-    font-size: 32px;
     color:#5f0609;
 }
 
 .banner-text h2{
-    top: 60%;
-    left: 60%;
-    font-weight: 700;
     color: white;
-}
-
-.box-container {
-    padding: 10px 20px 10px 20px;
 }
 
 .box-container-title {
     font-family: "Playfair Display", serif;
     font-weight: 800;
-    font-size: 22px;
-    color: #f36444;
     text-align: center;
+    color: #f36444;
 }
+
 .box-container-content {
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 400;
-    font-size: 14px;
 }
 
-.squared-box-content{
+.squared-box-content {
     box-sizing: border-box;
     display: inline-block;
     background-color: #f2e7d2;
-    border-radius: 2%;
-    width: 100%;
-    padding: 10px 20px 10px 20px;
-    margin:10px 0px 10px 0px;
 }
 
 .squared-box-title {
     font-family: "Playfair Display", serif;
     font-weight: 800;
-    font-size: 20px;
     color:#5f0609;
 }
 
 .squared-box-text {
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 400;
-    font-size: 14px;
 }
 
 .category-box-content {
     box-sizing: border-box;
-    width: 100%;
-    height:auto;
     display: inline-block;
-    padding: 30px 30px 20px 30px;
-    margin:10px 0px 10px 0px;
     border: 2px solid;
     border-color: lightgray;
-    background-color: white;
-    border-radius: 2%;   
+    background-color: white;   
 }
 
 .category-list h2 {
     font-family: "Playfair Display", serif;
     font-weight: 800;
-    font-size: 22px;
     color: #f36444;
     text-align: center;
 }
@@ -168,19 +104,211 @@ body {
 .category-box-title {
     font-family: "Playfair Display", serif;
     font-weight: 800;
-    font-size: 20px;
     color:#5f0609;
     text-align: center;
 }
 
 .category-box-img {
-    width: 100%;
-    height: 280px;
     object-fit: cover;
     overflow: hidden;
 }
 
-#box-size {
-    margin: 0px 20px 0px 20px;
+/*Mobile Devices: 319px — 480px*/
+@media (min-width: 319px) and (max-width: 480px) {
+    .menu {
+        padding: 10px;
+    }
+
+    .menu ul {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .menu li {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .banner-text {
+        padding: 20px 10%;
+        line-height: 80%;
+        transform: translate(0%, -100%);
+    }
+
+    .banner-text h1{
+        font-weight: 800;
+        font-size: 32px;
+    }
+
+    .banner-text h2{
+        font-weight: 700;
+        font-size: 24px;
+    }
+   
+    .box-container {
+        margin:10px 0px 10px 0px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .box-container-title {
+        font-size: 22px;
+    }
+
+    .box-container-content {
+        font-size: 14px;
+    }
+
+    .squared-box-content{
+        border-radius: 2%;
+        width: 100%;
+        padding: 10px 20px 10px 20px;
+        margin:10px 0px 10px 0px;
+    }
+
+    .squared-box-title {
+        font-size: 20px;
+    }
+
+    .squared-box-text {
+        font-size: 14px;
+    }
+
+    .category-box-content {
+        width: 100%;
+        height:auto;
+        padding: 30px 30px 20px 30px;
+        margin:10px 0px 10px 0px;
+        border-radius: 2%;   
+    }
+
+    .category-list h2 {
+        font-size: 22px;
+    }
+
+    .category-box-title {
+        font-size: 20px;
+    }
+
+    .category-box-img {
+        width: 100%;
+        height: 280px;
+    }
+
+    #box-size {
+        margin: 0px 20px 0px 20px;
+    }
+
 }
 
+/*iPads and Tablets: 481px — 1200px*/
+@media (min-width: 481px) and (max-width: 1200px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu ul {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .menu li {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .banner-text {
+        padding: 10% 10%;
+        line-height: 130%;
+        transform: translate(0%, -120%);
+    }
+
+    .banner-text h1{
+        font-weight: 800;
+        font-size: 52px;
+    }
+
+    .banner-text h2{
+        font-weight: 700;
+        font-size: 38px;
+    }
+
+    .box-container {
+        margin:20px 0px 20px 0px;
+        padding: 20px 30px 20px 30px;
+        text-align: center;
+    }
+
+    .box-container-title {
+        font-size: 32px;
+    }
+
+    .box-container-content {
+        font-size: 18px;
+    }
+
+    .squared-box-list {
+        text-align: center;
+    
+    }
+
+    .squared-box-content{
+        width: 320px;
+        height: 180px;
+        border-radius: 4%;
+        padding: 10px 20px 10px 20px;
+        margin:20px 10px 20px 10px;
+        vertical-align:top;
+
+    }
+
+    .squared-box-title {
+        font-size: 24px;
+    }
+
+    .squared-box-text {
+        font-size: 16px;
+    }
+
+    .category-box-content {
+        width: 260px;
+        height:auto;
+        padding: 30px 30px 20px 30px;
+        margin:10px 1px 10px 10px;
+        border-radius: 4%;   
+    }
+
+    .category-list {
+        text-align: center;
+    }
+
+    .category-list h2 {
+        font-size: 32px;
+    }
+
+    .category-box-title {
+        font-size: 24px;
+    }
+
+    .category-box-img {
+        width: 100%;
+        height: 280px;
+    }
+
+    #box-size {
+        margin: 0px 40px 0px 40px;
+    }
+}
+
+/*
+/*Laptops: 1201px — 1600px
+@media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      background-color: limegreen;
+    }
+}
+
+/*Desktops: 1601px and more
+@media (min-width: 1601px) {
+    body {
+      background-color: seagreen;
+    }
+}
+*/
