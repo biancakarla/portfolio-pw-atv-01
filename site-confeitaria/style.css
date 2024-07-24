@@ -2,7 +2,7 @@
 /*Mobile Devices: 319px — 480px*/
 @media (min-width: 319px) and (max-width: 480px) {
     body {
-      background-color: lightsalmon;
+      background-color:white;
     }
 }
 
@@ -30,12 +30,96 @@
 */
 
 
-.banner-img{
-    max-width: 100%;
-    max-height:5%;
-    position: relative;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
+
+.menu {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #5f0609;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+.menu a:link{
+    text-decoration: none;
+    color:#f2e7d2;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+}
+
+.banner-img{
+    position: relative;
+    max-width: 100%;
+    max-height:5%;
+    opacity: 0.5;
+    filter: brightness(50%);
+}
+
+.banner-text {
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    padding: 20px 10%;
+    line-height: 80%;
+    transform: translate(0%, -100%);
+}
+
+.banner-text h1{
+    top: 0%;
+    left: 50%;
+    z-index:1 ;
+    font-weight: 800;
+    font-size: 32px;
+    color:#5f0609;
+}
+
+.banner-text h2{
+    top: 60%;
+    left: 60%;
+    font-weight: 700;
+    color: white;
+}
+
+.box-container {
+    padding: 10px 20px 10px 20px;
+}
+
+.box-container-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #f36444;
+    text-align: center;
+}
+.box-container-content {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
 
 .squared-box-content{
     box-sizing: border-box;
@@ -48,31 +132,16 @@
 }
 
 .squared-box-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
     font-size: 20px;
     color:#5f0609;
 }
 
 .squared-box-text {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
     font-size: 14px;
-}
-
-.menu {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 5px 10px 5px 10px;
-    box-sizing: border-box;
-    background-color: #5f0609;   
-}
-
-.menu li{
-    display: inline-flex;
-    padding: 5px 10px 5px 10px;
-}
-
-.menu a:link{
-    text-decoration: none;
-    color:#f2e7d2;
 }
 
 .category-box-content {
@@ -80,23 +149,38 @@
     width: 100%;
     height:auto;
     display: inline-block;
-    padding: 50px 30px 40px 30px;
+    padding: 30px 30px 20px 30px;
     margin:10px 0px 10px 0px;
-    border: 1px;
-    border-color: cadetblue;
+    border: 2px solid;
+    border-color: lightgray;
     background-color: white;
     border-radius: 2%;   
 }
 
+.category-list h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #f36444;
+    text-align: center;
+}
+
 .category-box-title {
-    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 20px;
+    color:#5f0609;
     text-align: center;
 }
 
 .category-box-img {
     width: 100%;
-    height: 300px;
+    height: 280px;
     object-fit: cover;
     overflow: hidden;
+}
+
+#box-size {
+    margin: 0px 20px 0px 20px;
 }
 
